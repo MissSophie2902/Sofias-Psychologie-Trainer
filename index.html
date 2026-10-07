@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#fff9fb">
+  <meta name="description" content="Sofias persönlicher Psychologie-Fachworttrainer">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <title>Sofias Psychologie · Fachworttrainer</title>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <button class="icon-button menu-button" aria-label="Menü">☰</button>
+      <div class="brand">
+        <div class="brand-mark">🌸</div>
+        <div>
+          <div class="brand-name">Sofias Psychologie</div>
+          <div class="brand-subtitle">Fachworttrainer</div>
+        </div>
+      </div>
+      <button class="avatar" aria-label="Profil">S</button>
+    </header>
+
+    <main id="app" class="page">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Mittwoch · 7. Oktober</p>
+          <h1>Hallo Sofia,<br><span>bereit für eine kleine Lernrunde?</span></h1>
+          <p class="hero-text">Ein paar Minuten heute bringen dich deinem Psychologie-Bachelor ein Stück näher.</p>
+          <button class="primary-button" data-action="start">Heute lernen <span>→</span></button>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="blossom blossom-a">✿</div>
+          <div class="blossom blossom-b">✿</div>
+          <div class="book-stack">
+            <div class="book book-back"></div>
+            <div class="book book-mid"></div>
+            <div class="book book-front"><span>Psychologie</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats-grid" aria-label="Lernfortschritt">
+        <article class="stat-card">
+          <span class="stat-icon">🌸</span>
+          <div><strong>7</strong><span> Tage Streak</span></div>
+          <small>Weiter so!</small>
+        </article>
+        <article class="stat-card">
+          <span class="stat-icon">📚</span>
+          <div><strong>12</strong><span> heute fällig</span></div>
+          <small>ca. 10 Minuten</small>
+        </article>
+        <article class="stat-card">
+          <span class="stat-icon">🧠</span>
+          <div><strong>84%</strong><span> sicher</span></div>
+          <small>BM1 · Forschungsmethoden</small>
+        </article>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Dein aktueller Lernweg</p>
+            <h2>BM1 · Forschungsmethoden</h2>
+          </div>
+          <button class="text-button">Alle Units →</button>
+        </div>
+        <article class="unit-card">
+          <div class="unit-number">01</div>
+          <div class="unit-content">
+            <div class="unit-topline"><span>12.10. – 25.10.2026</span><span class="pill active">Als Nächstes</span></div>
+            <h3>Wissenschaft und Psychologie</h3>
+            <p>Einführung in den Forschungsprozess</p>
+            <div class="progress-row"><div class="progress-track"><div class="progress-value" style="width: 18%"></div></div><strong>18%</strong></div>
+          </div>
+          <div class="unit-visual" aria-hidden="true">📖</div>
+        </article>
+      </section>
+
+      <section class="section two-column">
+        <article class="soft-card">
+          <div class="section-heading compact"><div><p class="eyebrow">Gezielt wiederholen</p><h2>Wackelkandidaten</h2></div><span class="count-badge">5</span></div>
+          <p class="muted">Begriffe, bei denen du zuletzt noch unsicher warst.</p>
+          <div class="term-list">
+            <button class="term-row"><span>Operationalisierung</span><span>→</span></button>
+            <button class="term-row"><span>Externe Validität</span><span>→</span></button>
+            <button class="term-row"><span>Replizierbarkeit</span><span>→</span></button>
+          </div>
+        </article>
+
+        <article class="soft-card library-card">
+          <div class="library-art" aria-hidden="true"><div class="tiny-book">📚</div><span>✿</span><span>✿</span></div>
+          <div>
+            <p class="eyebrow">Deine Bibliothek</p>
+            <h2>Psychologie-Wissen</h2>
+            <p class="muted">Begriffe, Quellen und Lernmaterialien an einem Ort.</p>
+            <button class="secondary-button">Bibliothek öffnen →</button>
+          </div>
+        </article>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <div><p class="eyebrow">Semesterfortschritt</p><h2>Wintersemester 2026/27</h2></div>
+          <strong class="overall-progress">8%</strong>
+        </div>
+        <div class="semester-progress"><div style="width: 8%"></div></div>
+        <div class="semester-meta"><span>BM1 · 1 von 8 Units vorbereitet</span><span>180 ECTS · dein Weg</span></div>
+      </section>
+    </main>
+
+    <nav class="bottom-nav" aria-label="Hauptnavigation">
+      <button class="nav-item active" data-nav="home"><span>⌂</span><small>Heute</small></button>
+      <button class="nav-item" data-nav="learn"><span>✦</span><small>Lernen</small></button>
+      <button class="nav-item" data-nav="library"><span>📚</span><small>Bibliothek</small></button>
+      <button class="nav-item" data-nav="progress"><span>◔</span><small>Fortschritt</small></button>
+    </nav>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
