@@ -1,0 +1,10 @@
+{
+  "name":"Sofias Psychologie · Fachworttrainer",
+  "short_name":"Psychologie Trainer",
+  "start_url":".",
+  "display":"standalone",
+  "background_color":"#fffafc",
+  "theme_color":"#fff9fb",
+  "description":"Sofias persönlicher Psychologie-Fachworttrainer",
+  "icons":[]
+}
